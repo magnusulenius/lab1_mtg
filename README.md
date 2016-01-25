@@ -1,1 +1,1 @@
-# lab1_mtg
+# Learning outdated stuff in school is great! :D
