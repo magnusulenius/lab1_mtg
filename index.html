@@ -13,12 +13,17 @@
 <!-- Sida 1 -->
 <div data-role="page"  id="sida_1" data-theme="a">
   <div data-role="header">
-    <h1>Här är titeln</h1>
+	  <a href="#sida_1" class="ui-btn ui-icon-home ui-btn-icon-notext"></a>
+	  <a href="#about" class="ui-btn ui-icon-info ui-btn-icon-notext"></a>
+    <h1>Windows 98</h1>
   </div>
   <div data-role="main" class="ui-content">
     <p>En ful katt</p>
-	<li> Lejon </li>
-	<li> Tiger </li>
+
+	<ul data-role="listview">
+  		<li><a href="#">Lejon</a></li>
+   		<li><a href="#">Tiger</a></li>
+	</ul>
     <a href="#sida_2" class= "ui-btn">Sida 2</a>
 
   </div>
@@ -31,6 +36,7 @@
 <!-- Sida 2 -->
 <div data-role="page"  id="sida_2" data-theme="a">
   <div data-role="header">
+	  <a href="#sida_1" class="ui-btn ui-icon-home ui-btn-icon-notext"></a>
     <h1>Här är titeln</h1>
   </div>
   <div data-role="main" class="ui-content">
@@ -46,6 +52,7 @@
 <!-- Sida 3 -->
 <div data-role="page"  id="sida_3" data-theme="a">
   <div data-role="header">
+	  <a href="#sida_1" class="ui-btn ui-icon-home ui-btn-icon-notext"></a>
     <h1>Här är titeln</h1>
   </div>
   <div data-role="main" class="ui-content">
@@ -57,6 +64,22 @@
   </div>
 </div>
 <!-- Slut sida 3 -->
+
+<!-- About -->
+<div data-role="page"  id="about" data-theme="a">
+  <div data-role="header">
+	  <a href="#sida_1" class="ui-btn ui-icon-home ui-btn-icon-notext"></a>
+    <h1>About</h1>
+  </div>
+  <div data-role="main" class="ui-content">
+    <p>Content</p>
+  </div>
+  <div data-role="footer">
+	  <a href="#" class="ui-btn ui-icon-back ui-btn-icon-notext" data-rel="back">Go Back</a>
+    <h1>Sidfoten </h1>
+  </div>
+</div>
+<!-- Slut – About -->
 
 </body>
 </html>
