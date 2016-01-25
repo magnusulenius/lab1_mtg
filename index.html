@@ -69,25 +69,32 @@ ui-page-theme-a ui-page-active" style="min-height: 445px;">
 
 <!-- tigersida -->
 <div data-role="page"  id="Tiger" data-theme="a">
-  <div data-role="header">
-	  <a href="#home" class="ui-btn ui-icon-home ui-btn-icon-notext"></a>
-    <h1>Windows 98</h1>
-  </div>
-  <div data-role="content" class="ui-content" >
-  <div data-role="header">
-	<h1>Tiger</h1>
-  </div>
-   <div data-role="content" class="ui-body-a">
-    <p>Tiger (Panthera tigris) är ett kattdjur som endast lever i Asien. Tigern är det största nu levande kattdjuret. Man delar upp de idag förekommande bestånden i sex underarter. Utöver detta känner man till tre utdöda underarter. De flesta tigrar lever i fuktig tropisk och subtropisk lövskog, men finns även i tempererade löv- och barrskogar. I denna miljö utgör pälsens mönster bra kamouflage. Tigern är en god simmare och badar ofta. Den jagar ensam och äter främst medelstora djur ur familjerna svindjur och hjortdjur, men tigern är opportunistisk och äter det den kommer över, så dieten inkluderar även fisk, fåglar, insekter, amfibier, reptiler, gnagare, piggsvin och primater. Människan är den enda art som utgör något allvarligt hot mot tigern. Tjuvjakt och människans omvandling av miljön i de områden där den lever har tillsammans reducerat tigerpopulationerna kraftigt, så att den nu räknas som starkt hotad. Trivialnamnet tiger härstammar från det grekiska ordet tigris som troligtvis är besläktat med det avestiska ordet för pil, tigri. Det skulle därmed syfta på djurets potential till höga hastigheter.</p>
+<!-- Global header -->
+	<div data-role="header">
+		<a href="#home" class="ui-btn ui-icon-home ui-btn-icon-notext"></a>
+		<h1>Windows 98</h1>
 	</div>
-	<ul data-role="listview" data-inset="true">
-		<li><a href="#Lejon">Lejon</a></li>
-		<li><a href="#Tiger">Tiger</a></li>
-	</ul>
-  </div>
-  <div data-role="footer">
-    <h1>Sidfoten </h1>
-  </div>
+<!-- Informationsruta -->
+	<div data-role="content" class="ui-content" >
+		<div data-role="header">
+			<h1>Tiger</h1>
+		</div>
+	<!-- Text -->
+		<div data-role="content" class="ui-body-a">
+			<p>Tiger (Panthera tigris) är ett kattdjur som endast lever i Asien. Tigern är det största nu levande kattdjuret. Man delar upp de idag förekommande bestånden i sex underarter. Utöver detta känner man till tre utdöda underarter. De flesta tigrar lever i fuktig tropisk och subtropisk lövskog, men finns även i tempererade löv- och barrskogar. I denna miljö utgör pälsens mönster bra kamouflage. Tigern är en god simmare och badar ofta. Den jagar ensam och äter främst medelstora djur ur familjerna svindjur och hjortdjur, men tigern är opportunistisk och äter det den kommer över, så dieten inkluderar även fisk, fåglar, insekter, amfibier, reptiler, gnagare, piggsvin och primater. Människan är den enda art som utgör något allvarligt hot mot tigern. Tjuvjakt och människans omvandling av miljön i de områden där den lever har tillsammans reducerat tigerpopulationerna kraftigt, så att den nu räknas som starkt hotad. Trivialnamnet tiger härstammar från det grekiska ordet tigris som troligtvis är besläktat med det avestiska ordet för pil, tigri. Det skulle därmed syfta på djurets potential till höga hastigheter.</p>
+	<!-- Bild -->
+			<div data-role="popup" id="tigerbild" data-overlay-theme="a" data-theme="a" data-corners="false">
+			    <a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-b ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a><img class="popphoto" src="./img/tiger.jpg" style="max-height:512px;" alt="Tiger">
+			</div>
+		</div>
+		<ul data-role="listview" data-inset="true">
+			<li><a href="#Lejon">Lejon</a></li>
+			<li><a href="#Tiger">Tiger</a></li>
+		</ul>
+	</div>
+	<div data-role="footer">
+		<h1>Sidfoten </h1>
+	</div>
 </div>
 <!-- Slut tigersida -->
 
