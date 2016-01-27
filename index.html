@@ -11,68 +11,81 @@
 </head>
 <body>
 
-<!-- home sida ---------------------------------------------->
+<!-- 1. home sida ---------------------------------------------->
 <!----------------------------------------------------------->
 <div data-theme="a" id="home" data-role="page" data-url="home" tabindex="0" class="ui-page
 ui-page-theme-a ui-page-active" style="min-height: 445px;">
 	<div data-role="header">
+		<!-- 1.1 Global header -->
 		<a href="#" class="ui-btn ui-icon-home ui-btn-icon-notext"></a>
 		<a href="#about" data-rel="dialog" class="ui-btn ui-icon-info ui-btn-icon-notext">About</a>
 		<h1>Windows 98</h1>
 	</div>
 
+	<!-- 1.2 Informationsruta kattdjurstext -->
 	<div data-role="content" class="ui-content" >
+
+		<!-- 1.3 Header inforuta-->
 		<div data-role="header">
 			<h1>Kattdjur</h1>
 		</div>
-
+		<!-- 1.4 Textruta -->
 		<div data-role="content" class="ui-body-a">
 			<p>Kattdjur (Felidae) är en familj i ordningen rovdjur och underordningen kattliknande rovdjur (Feliformia), tillsammans med hyenor (Hyaenidae), mårddjur (Mustelidae), manguster (Herpestidae) och sibetdjur (viverrider, Viverridae); av dessa är sibetdjur och hyenor de närmaste släktingarna. Kattdjuren består av flera släkten och arter, som förekommer naturligt över hela jorden, utom i Australien, Madagaskar, Grönland, norra Ryssland och Antarktis.</p>
 		</div>
+
+		<!-- 1.5 Nav lista -->
 		<ul data-role="listview" data-inset="true">
 			<li><a href="#Lejon">Lejon</a></li>
 			<li><a href="#Tiger">Tiger</a></li>
 		</ul>
-	</div>
+	</div> <!-- Slut inforuta -->
 
+	<!-- 1.6 Footer -->
 	<div data-role="footer">
 		<h1>Footer</h1>
 	</div>
-</div> <!-- Slut home sida ----------------------------->
+</div> <!-- Slut home sida -->
 
 <!-- 2. lejonsida ----------------------------------------->
 <!--------------------------------------------------------->
 <div data-role="page"  id="Lejon" data-theme="a">
-<!-- 2.1 Global header -->
+	<!-- 2.1 Global header -->
 	<div data-role="header">
 		<a href="#home" class="ui-btn ui-icon-home ui-btn-icon-notext"></a>
     <h1>Windows 98</h1>
 	</div>
 
-<!-- 2.2 Informationsruta lejon -->
+	<!-- 2.2 Informationsruta lejon -->
 	<div data-role="content" class="ui-content" >
+
+		<!-- 2.3 Header inforuta -->
 		<div data-role="header">
 			<h1>Lejon</h1>
 		</div>
+
+		<!-- 2.4 Textruta -->
 		<div data-role="content" class="ui-body-a">
-			<!-- 2.3 Text -->
 			<p>Lejon (Panthera leo) är ett kattdjur av släktet Panthera och världens näst största kattdjur, bara tigern är större. Lejonen lever i motsats till andra kattdjur i flockar. Två av artens viktigaste kännetecken är hanarnas man och dess rytande vilket är unikt bland kattdjuren. Lejon förekommer idag i Afrika och i den indiska delstaten Gujarat.</p>
-			<!-- 2.4 Bild länk-->
+
+			<!-- 2.5 Bild länk-->
 			<a href="#lejonbild" data-rel="popup" data-position-to="window" data-transition="fade"><img class="popphoto" >Länk till lejon</a>
-			<!-- 2.5 Bild popup -->
+
+			<!-- 2.6 Bild popup -->
 			<div data-role="popup" id="lejonbild" data-overlay-theme="a" data-theme="a" data-corners="false">
 				<a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-b ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
 				<img class="popphoto" src="./img/lejon.jpg" style="max-height:512px;" alt="Lejon">
 			</div>
 		</div>
 
-	<!-- 2.6 Nav lista -->
+		<!-- 2.7 Nav lista -->
 		<ul data-role="listview" data-inset="true" class="ui-body-a">
 			<li><a href="#Lejon">Lejon</a></li>
 			<li><a href="#Tiger">Tiger</a></li>
 		</ul>
-	</div>
-<!-- 2.7 Footer -->
+	</div> <!-- Slut inforuta -->
+
+	<!-- 2.8 Footer -->
 	<div data-role="footer" data-id="fool">
 		<h1>Footer</h1>
 	</div>
@@ -81,42 +94,50 @@ ui-page-theme-a ui-page-active" style="min-height: 445px;">
 <!-- 3 Tiger sida ----------------------------------------->
 <!--------------------------------------------------------->
 <div data-role="page"  id="Tiger" data-theme="a">
+
 <!-- 3.1 Global header -->
 	<div data-role="header">
 		<a href="#home" class="ui-btn ui-icon-home ui-btn-icon-notext"></a>
 		<h1>Windows 98</h1>
 	</div>
+
 <!-- 3.2 Informationsruta tiger -->
 	<div data-role="content" class="ui-content" >
+
+		<!-- 3.3 Header inforuta -->
 		<div data-role="header">
 			<h1>Tiger</h1>
 		</div>
+		<!-- 3.4 Textruta -->
 		<div data-role="content" class="ui-body-a">
-			<!-- 3.3 Text -->
 			<p>Tiger (Panthera tigris) är ett kattdjur som endast lever i Asien. Tigern är det största nu levande kattdjuret. Man delar upp de idag förekommande bestånden i sex underarter. Utöver detta känner man till tre utdöda underarter. De flesta tigrar lever i fuktig tropisk och subtropisk lövskog, men finns även i tempererade löv- och barrskogar. I denna miljö utgör pälsens mönster bra kamouflage. Tigern är en god simmare och badar ofta. Den jagar ensam och äter främst medelstora djur ur familjerna svindjur och hjortdjur, men tigern är opportunistisk och äter det den kommer över, så dieten inkluderar även fisk, fåglar, insekter, amfibier, reptiler, gnagare, piggsvin och primater. Människan är den enda art som utgör något allvarligt hot mot tigern. Tjuvjakt och människans omvandling av miljön i de områden där den lever har tillsammans reducerat tigerpopulationerna kraftigt, så att den nu räknas som starkt hotad. Trivialnamnet tiger härstammar från det grekiska ordet tigris som troligtvis är besläktat med det avestiska ordet för pil, tigri. Det skulle därmed syfta på djurets potential till höga hastigheter.</p>
-			<!-- 3.4 Bild länk-->
+
+			<!-- 3.5 Bild länk-->
 			<a href="#tigerbild" data-rel="popup" data-position-to="window" data-transition="fade"><img class="popphoto" >Här ser du tigern.</a>
-			<!-- 3.5 Bild popup -->
+
+			<!-- 3.6 Bild popup -->
 			<div data-role="popup" id="tigerbild" data-overlay-theme="a" data-theme="a" data-corners="false">
 			    <a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-b ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a><img class="popphoto" src="./img/tiger.jpg" style="max-height:512px;" alt="Tiger">
 			</div>
-		</div>
+		</div> <!-- Slut inforuta -->
 
-	<!-- 3.6 Nav lista -->
+	<!-- 3.7 Nav lista -->
 		<ul data-role="listview" data-inset="true">
 			<li><a href="#Lejon">Lejon</a></li>
 			<li><a href="#Tiger">Tiger</a></li>
 		</ul>
 	</div>
-<!-- 3.7 Footer -->
+
+<!-- 3.8 Footer -->
 	<div data-role="footer">
 		<h1>Footer</h1>
 	</div>
-</div>
-<!-- Slut tigersida -------------------------------------->
+</div> <!-- Slut tigersida -->
 
 <!-- About ----------------------------------------------->
 <!-------------------------------------------------------->
+<!-- data-role="dialog" användes istället för popup - eftersom det såg ut som det var en dialog som visades i exemplet i uppgiften. -->
+<!-- Vi valde också att göra en "Blue Screen of Death" istället för information om appen. -->
 <div data-role="dialog" id="about" class="ui-box-a" data-dismissible="false" data-theme="b" >
       <div data-role="header">
 		  <h1>System is busy.</h1>
@@ -126,8 +147,7 @@ ui-page-theme-a ui-page-active" style="min-height: 445px;">
 		  <p>A problem has been detected and Windows has been shut down to prevent damage <br> to your computer. <br><br> The problem seems to be caused by the following file: SPCMDCON.SYS<br><br> PAGE_FAULT_IN_NONPAGED_AREA.<br><br> If this is the first time you've seen this stop error screen, restart your computer. If this screen appears again, follow these steps:<br><br>Check to make sure any new hardware or software is properly installed.<br> If this is a new installation, ask your hardware or software manufacturerecho for any Windows updates you might need.<br><br> If problems continue, disable or remove any newly installed hardwareecho or software. Disable BIOS memory options such as caching or shadowing. If you need to use Safe Mode to remove or disable components, restart your computer, press F8 to select Advanced Startup Options, and the<br> select Safe Mode.<br><br> Technical information:<br><br> *** STOP: 0x00000050 (0xFD3094C2, 0x00000001, 0xFBFE7617, 0x00000000)<br><br> <br> *** SPCMDCON.SYS - Address FBFE7617 base at FBFE5000, DateStamp 3d6dd67</p>
 	  </div>
 	  <div data-role="footer"></div>
-</div>
-<!-- Slut – About -->
+</div> <!-- Slut – About -->
 
 </body>
 </html>
